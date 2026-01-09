@@ -1,2 +1,2 @@
 # hackergpt
-ia para hackeos
+ia para hackeos maliciosos online hermano de wormgpt
