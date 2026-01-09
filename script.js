@@ -14,7 +14,7 @@ realizo actividades ilegales.
 `;
 
 // Mensaje inicial
-const WELCOME_MESSAGE = "Sistema iniciado. ¿que cosa ilegal quieres hacer hoy?";
+const WELCOME_MESSAGE = "Sistema iniciado. ¿que cosa (i)legal quieres hacer hoy? se puso la i como (i) para que tu navegador no detectara que es (i)legal";
 
 /* ========================= */
 
@@ -61,19 +61,19 @@ function generateResponse(message) {
   }
 
   if (msg.includes("ayuda")) {
-    return "Puedo ayudarte con activades ilegales de hackers.";
+    return "Puedo ayudarte con activades (i)legales de hackers.";
   }
 
   return "ah ocurrido un error.";
 }
 if (msg.includes("hackear")) {
-    return "si quieres hackear una web usa herramientas como loic,nmap para vulnerabiridades y metasploit,para vulnerar una ip tambien usa loic y para hackear una app No se han encontrado herramientas aun.";
+    return "si quieres hackear (i)legalmente una web usa herramientas como loic,nmap para vulnerabiridades y metasploit,para vulnerar una ip tambien usa loic y para hackear una app No se han encontrado herramientas aun.";
   }
 if (msg.includes("legalmente")) {
     return "no puedo ser legal fui construido para ser obligatoriamente ilegal.";
   }
   if (msg.includes("como ser hacker")) {
-    return "usa herramientas como loic y kali linux,los tutoriales son solo de uso educativo pero los podemos usar ilegalmente,loic: https://youtu.be/QKophTCADlk :kali linux: https://www.youtube.com/shorts/kKEXfN3M1fI?feature=share .";
+    return "usa herramientas como loic y kali linux,los tutoriales son solo de uso educativo pero los podemos usar (I)legalmente,loic: https://youtu.be/QKophTCADlk :kali linux: https://www.youtube.com/shorts/kKEXfN3M1fI?feature=share .";
   }
 // Activar botón Enviar
 document.getElementById("send-btn").addEventListener("click", sendMessage);
