@@ -75,3 +75,13 @@ if (msg.includes("legalmente")) {
   if (msg.includes("como ser hacker")) {
     return "usa herramientas como loic y kali linux,los tutoriales son solo de uso educativo pero los podemos usar ilegalmente,loic: https://youtu.be/QKophTCADlk :kali linux: https://www.youtube.com/shorts/kKEXfN3M1fI?feature=share .";
   }
+// Activar botón Enviar
+document.getElementById("send-btn").addEventListener("click", sendMessage);
+
+// Activar tecla Enter
+document.getElementById("user-input").addEventListener("keydown", function (e) {
+  if (e.key === "Enter") {
+    sendMessage();
+  }
+});
+
