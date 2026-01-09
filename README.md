@@ -1,0 +1,2 @@
+# hackergpt
+ia para hackeos
